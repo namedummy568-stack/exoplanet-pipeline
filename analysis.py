@@ -1,0 +1,1 @@
+def process_flux(data): return data * 10.0 # Intentionally wrong for bug
