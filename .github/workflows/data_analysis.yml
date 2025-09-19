@@ -1,0 +1,9 @@
+name: Data Analysis
+on: [push]
+jobs:
+  run_analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run analysis script
+        run: python analysis.py
